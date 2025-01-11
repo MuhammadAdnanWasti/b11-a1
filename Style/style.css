@@ -86,9 +86,8 @@ text-align: left;
 }
 .btn{
   
-position: static;
-width: 230px;
-height: 50px;
+
+
 
 display: flex;
 flex-direction: row;
@@ -103,9 +102,124 @@ margin: 24px 0px;
 color: aliceblue;
 border-radius: 8px;
 
-background: rgb(0, 106, 80);
+
+}
+.green{
+    background: rgb(0, 106, 80);
 }
 .btn:hover{
     background: rgb(9, 143, 109);
     cursor: pointer;
+}
+.vh1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 37px;
+font-weight: 700;
+line-height: 42px;
+
+text-align: left;
+}
+.ts1{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+
+text-align: left;
+}
+.t{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size:18px;
+font-weight: 700;
+line-height: 23px;
+
+text-align: left;
+}
+.blue{
+    background: rgb(84, 144, 245);
+}
+.gg{
+    background: rgb(9, 161, 92);
+}
+.yellow{
+    background: rgb(255, 194, 57);
+}
+.cards{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.card{
+   
+
+width: 370px;
+height: 305px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20;
+padding: 43px;
+
+
+
+
+margin: 0px 20px;
+box-sizing: border-box;
+border-radius: 13px;
+}
+.bbb{
+    background-color: rgba(84, 144, 245, 0.2);
+
+
+}
+.ggg{
+    background: rgb(198, 228, 214);
+}
+.yyy{
+    background: rgb(247, 235, 207);
+}
+.card img{
+   
+width: 44.66px;
+height: 50.09px;
+left: 12.34px;
+top: 1px;
+}
+.vision{
+    width: 1236px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.box{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+padding: 48px 24px 48px 24px;
+margin: 0px 24px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 14px;
+
+background: rgb(255, 255, 255);
+background-image: url('../assets/quote-bg.png');
+background-repeat: no-repeat;
+background-position: top left;
+}
+.recent{
+    width: 1236px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
