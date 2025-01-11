@@ -212,7 +212,10 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 14px;
 
 background: rgb(255, 255, 255);
-background-image: url('../assets/quote-bg.png');
+
+}
+.sss{
+    background-image: url('../assets/quote-bg.png');
 background-repeat: no-repeat;
 background-position: top left;
 }
@@ -222,4 +225,22 @@ background-position: top left;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.ts2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+
+text-align: left;
+}
+.buu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sat img{
+    border-radius: 32px;
 }
