@@ -244,3 +244,49 @@ text-align: left;
 .sat img{
     border-radius: 32px;
 }
+.donate{
+    width: 1236px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  margin: 20px auto;
+}
+.donate h1{
+    text-align: center;
+}
+.donate button{
+    width: 10%;
+    margin: 0px auto;
+}
+.sboxes{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 17px;
+}
+.sboox{
+    text-align: center;
+    padding: 35px 45px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.sboox:hover{
+    background: rgb(20, 145, 8);
+}
+.donate input{
+    padding: 20px 6px;
+    border: none;
+    text-align: center;
+}
+.subs{
+    width: 1236px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  margin: 20px auto;
+  border-radius: 24px;
+background: rgb(198, 228, 214);
+}
